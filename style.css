@@ -1,8 +1,11 @@
 /* Order of Specificity
 
-.card article img
-.card footer & .card header
-.card */
+ID, Classes Attrb & Pseudo-Classes, Elements and Pseudo-elements
+
+012 .card article img
+011 .card header
+011 .card footer 
+010 .card */
 
 body {
   margin: 0;
